@@ -1,0 +1,543 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>ViralZugaad - Digital Marketing Agency</title>
+  <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=SF+Pro+Display:wght@400;500;600;700&display=swap">
+  <link rel="stylesheet" href="styles.css">
+  <script src="https://cdn.jsdelivr.net/npm/three@0.132.2/build/three.min.js"></script>
+</head>
+<body>
+  <!-- Navbar -->
+  <nav class="navbar" id="navbar">
+    <div class="container">
+      <div class="navbar-content">
+        <a href="#" class="logo">ViralZugaad</a>
+       
+        <div class="nav-links" id="navLinks">
+          <a href="#services" class="nav-item">Services</a>
+          <a href="#about" class="nav-item">About</a>
+          <a href="#portfolio" class="nav-item">Portfolio</a>
+          <a href="#testimonials" class="nav-item">Testimonials</a>
+          <a href="#contact" class="btn-primary">Contact Us</a>
+        </div>
+       
+        <button class="menu-toggle" id="menuToggle">
+          <span></span>
+          <span></span>
+          <span></span>
+        </button>
+      </div>
+    </div>
+  </nav>
+ 
+  <!-- Hero Section -->
+  <section class="hero" id="hero">
+    <div id="sunMoonParallax" class="sun-moon-parallax"></div>
+    <div id="heroScene" class="hero-scene"></div>
+   
+    <div class="container">
+      <div class="hero-content">
+        <div class="hero-text">
+          <h1 class="hero-title">
+            Future of <span class="text-gradient">Digital</span><br />
+            Marketing with <span class="text-gradient">AI</span> <br />Driven Funnel
+          </h1>
+         
+          <p class="hero-description">
+            Transform your brand with our innovative marketing strategies that drive growth, increase engagement, and deliver measurable results in the digital landscape.
+          </p>
+         
+          <div class="hero-buttons">
+            <a href="#contact" class="btn-primary">Get Started</a>
+            <a href="#services" class="btn-outline">Our Services</a>
+          </div>
+        </div>
+       
+        <div class="hero-card">
+          <div class="card-backdrop"></div>
+          <div class="card-3d">
+            <div class="card-content">
+              <div class="card-image"></div>
+              <div class="card-placeholder">
+                <div class="placeholder-line-large"></div>
+                <div class="placeholder-line"></div>
+                <div class="placeholder-line-medium"></div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+   
+    <a href="#services" class="scroll-down">
+      <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="m6 9 6 6 6-6"/></svg>
+    </a>
+  </section>
+ 
+  <!-- Services Section -->
+  <section id="services" class="services section">
+    <div class="container">
+      <div class="section-header">
+        <h2 class="section-title">Our Services</h2>
+        <p class="section-description">
+          Comprehensive digital marketing solutions tailored to help your business grow and succeed in the digital landscape.
+        </p>
+      </div>
+     
+      <div class="services-grid">
+        <div class="service-card" data-tilt>
+          <div class="service-icon">
+            <svg xmlns="http://www.w3.org/2000/svg" width="48" height="48" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"><path d="M17 21v-2a4 4 0 0 0-4-4H5a4 4 0 0 0-4 4v2"></path><circle cx="9" cy="7" r="4"></circle><path d="M23 21v-2a4 4 0 0 0-3-3.87"></path><path d="M16 3.13a4 4 0 0 1 0 7.75"></path></svg>
+          </div>
+          <h3 class="service-title">Social Media Marketing</h3>
+          <p class="service-description">Boost your brand presence and engagement on all major social platforms with our targeted strategies.</p>
+          <a href="#contact" class="service-link">Learn more →</a>
+        </div>
+       
+        <div class="service-card" data-tilt>
+          <div class="service-icon">
+            <svg xmlns="http://www.w3.org/2000/svg" width="48" height="48" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"><circle cx="11" cy="11" r="8"></circle><path d="m21 21-4.3-4.3"></path></svg>
+          </div>
+          <h3 class="service-title">Search Engine Optimization</h3>
+          <p class="service-description">Improve your website's visibility and drive organic traffic with our data-driven SEO tactics.</p>
+          <a href="#contact" class="service-link">Learn more →</a>
+        </div>
+       
+        <div class="service-card" data-tilt>
+          <div class="service-icon">
+            <svg xmlns="http://www.w3.org/2000/svg" width="48" height="48" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"><rect x="2" y="3" width="20" height="14" rx="2" ry="2"></rect><line x1="8" x2="16" y1="21" y2="21"></line><line x1="12" x2="12" y1="17" y2="21"></line></svg>
+          </div>
+          <h3 class="service-title">Web Design & Development</h3>
+          <p class="service-description">Create stunning, responsive websites that convert visitors into customers.</p>
+          <a href="#contact" class="service-link">Learn more →</a>
+        </div>
+       
+        <div class="service-card" data-tilt>
+          <div class="service-icon">
+            <svg xmlns="http://www.w3.org/2000/svg" width="48" height="48" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"><rect x="5" y="2" width="14" height="20" rx="2" ry="2"></rect><line x1="12" x2="12.01" y1="18" y2="18"></line></svg>
+          </div>
+          <h3 class="service-title">Mobile Marketing</h3>
+          <p class="service-description">Reach customers on their devices with mobile-optimized campaigns and apps.</p>
+          <a href="#contact" class="service-link">Learn more →</a>
+        </div>
+       
+        <div class="service-card" data-tilt>
+          <div class="service-icon">
+            <svg xmlns="http://www.w3.org/2000/svg" width="48" height="48" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"><path d="M21 15a2 2 0 0 1-2 2H7l-4 4V5a2 2 0 0 1 2-2h14a2 2 0 0 1 2 2z"></path></svg>
+          </div>
+          <h3 class="service-title">Content Marketing</h3>
+          <p class="service-description">Engage your audience with compelling content that builds trust and drives action.</p>
+          <a href="#contact" class="service-link">Learn more →</a>
+        </div>
+       
+        <div class="service-card" data-tilt>
+          <div class="service-icon">
+            <svg xmlns="http://www.w3.org/2000/svg" width="48" height="48" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"><rect x="2" y="2" width="6" height="18"></rect><rect x="14" y="6" width="6" height="14"></rect><rect x="8" y="10" width="6" height="10"></rect></svg>
+          </div>
+          <h3 class="service-title">Analytics & Reporting</h3>
+          <p class="service-description">Make data-driven decisions with comprehensive analytics and clear reporting.</p>
+          <a href="#contact" class="service-link">Learn more →</a>
+        </div>
+      </div>
+    </div>
+  </section>
+ 
+  <!-- About Section -->
+  <section id="about" class="about section">
+    <div class="container">
+      <div class="about-grid">
+        <div class="about-visuals">
+          <div class="about-cards">
+            <div class="blur-circle"></div>
+            <div class="about-main-card"></div>
+            <div class="about-stat-card">
+              <span class="stat-value">95%</span>
+              <span class="stat-label">ROI Increase</span>
+            </div>
+            <div class="about-stat-card secondary">
+              <span class="stat-value">3x</span>
+              <span class="stat-label">Traffic Growth</span>
+            </div>
+          </div>
+        </div>
+       
+        <div class="about-content">
+          <h2 class="section-title">About Our Agency</h2>
+         
+          <p class="about-text">
+            Founded in 2013, our agency has been at the forefront of digital marketing innovation. We combine creative strategy with analytical precision to deliver exceptional results for our clients.
+          </p>
+         
+          <p class="about-text">
+            Our team of experts brings diverse experience from top global agencies and brands, allowing us to provide a unique perspective and innovative solutions for every marketing challenge.
+          </p>
+         
+          <div class="stats-grid">
+            <div class="stat-item">
+              <div class="stat-value">10+</div>
+              <div class="stat-label">Years Experience</div>
+            </div>
+            <div class="stat-item">
+              <div class="stat-value">150+</div>
+              <div class="stat-label">Clients Worldwide</div>
+            </div>
+            <div class="stat-item">
+              <div class="stat-value">320+</div>
+              <div class="stat-label">Projects Completed</div>
+            </div>
+            <div class="stat-item">
+              <div class="stat-value">98%</div>
+              <div class="stat-label">Client Retention</div>
+            </div>
+          </div>
+         
+          <a href="#team" class="btn-primary">Meet Our Team</a>
+        </div>
+      </div>
+    </div>
+  </section>
+ 
+  <!-- Portfolio Section -->
+  <section id="portfolio" class="portfolio section">
+    <div class="container">
+      <div class="section-header">
+        <h2 class="section-title">Our Work</h2>
+        <p class="section-description">
+          Explore our portfolio of successful marketing campaigns and discover how we've helped businesses achieve their goals.
+        </p>
+      </div>
+     
+      <div class="portfolio-tabs">
+        <button class="tab-btn active" data-category="all">All Projects</button>
+        <button class="tab-btn" data-category="ecommerce">E-commerce</button>
+        <button class="tab-btn" data-category="b2b">B2B</button>
+        <button class="tab-btn" data-category="branding">Branding</button>
+        <button class="tab-btn" data-category="mobile">Mobile</button>
+        <button class="tab-btn" data-category="seo">SEO</button>
+        <button class="tab-btn" data-category="social">Social Media</button>
+      </div>
+     
+      <div class="portfolio-grid">
+        <div class="case-study-card" data-category="ecommerce" data-tilt>
+          <div class="case-image bg-blue"></div>
+          <div class="case-content">
+            <h3 class="case-title">E-commerce Revenue Boost</h3>
+            <p class="case-client">FashionStore</p>
+            <ul class="case-results">
+              <li>67% increase in conversions</li>
+              <li>3.2x ROI</li>
+              <li>Reduced CPA by 42%</li>
+            </ul>
+            <a href="#" class="case-link">View Case Study →</a>
+          </div>
+        </div>
+       
+        <div class="case-study-card" data-category="b2b" data-tilt>
+          <div class="case-image bg-orange"></div>
+          <div class="case-content">
+            <h3 class="case-title">B2B Lead Generation</h3>
+            <p class="case-client">TechCorp Solutions</p>
+            <ul class="case-results">
+              <li>218% more qualified leads</li>
+              <li>54% reduced acquisition costs</li>
+              <li>35% higher engagement</li>
+            </ul>
+            <a href="#" class="case-link">View Case Study →</a>
+          </div>
+        </div>
+       
+        <div class="case-study-card" data-category="branding" data-tilt>
+          <div class="case-image bg-green"></div>
+          <div class="case-content">
+            <h3 class="case-title">Brand Awareness Campaign</h3>
+            <p class="case-client">EcoProducts</p>
+            <ul class="case-results">
+              <li>2.8M social impressions</li>
+              <li>460% increase in brand mentions</li>
+              <li>75% positive sentiment</li>
+            </ul>
+            <a href="#" class="case-link">View Case Study →</a>
+          </div>
+        </div>
+       
+        <div class="case-study-card" data-category="mobile" data-tilt>
+          <div class="case-image bg-purple"></div>
+          <div class="case-content">
+            <h3 class="case-title">App Launch Strategy</h3>
+            <p class="case-client">HealthApp</p>
+            <ul class="case-results">
+              <li>100K downloads in first month</li>
+              <li>4.8 app store rating</li>
+              <li>62% user retention</li>
+            </ul>
+            <a href="#" class="case-link">View Case Study →</a>
+          </div>
+        </div>
+       
+        <div class="case-study-card" data-category="seo" data-tilt>
+          <div class="case-image bg-blue-dark"></div>
+          <div class="case-content">
+            <h3 class="case-title">Local SEO Domination</h3>
+            <p class="case-client">Urban Cafe Chain</p>
+            <ul class="case-results">
+              <li>1st page ranking for all target keywords</li>
+              <li>183% increase in foot traffic</li>
+              <li>5x ROI</li>
+            </ul>
+            <a href="#" class="case-link">View Case Study →</a>
+          </div>
+        </div>
+       
+        <div class="case-study-card" data-category="social" data-tilt>
+          <div class="case-image bg-pink"></div>
+          <div class="case-content">
+            <h3 class="case-title">Social Media Growth</h3>
+            <p class="case-client">FitnessBrand</p>
+            <ul class="case-results">
+              <li>420K new followers</li>
+              <li>32% engagement rate</li>
+              <li>5.2M video views</li>
+            </ul>
+            <a href="#" class="case-link">View Case Study →</a>
+          </div>
+        </div>
+      </div>
+     
+      <div class="portfolio-cta">
+        <a href="#" class="btn-primary">View All Projects</a>
+      </div>
+    </div>
+  </section>
+ 
+  <!-- Testimonials Section -->
+  <section id="testimonials" class="testimonials section">
+    <div class="container">
+      <div class="section-header">
+        <h2 class="section-title">Client Testimonials</h2>
+        <p class="section-description">
+          Hear what our clients have to say about their experience working with our agency and the results we've delivered.
+        </p>
+      </div>
+     
+      <div class="testimonial-slider">
+        <div class="testimonials-container">
+          <div class="testimonial-slide active">
+            <div class="quote-icon">
+              <svg width="48" height="48" viewBox="0 0 48 48" fill="none" xmlns="http://www.w3.org/2000/svg">
+                <path d="M14.4 24H9.6C8.72 24 8 23.28 8 22.4V19.2C8 16.88 9.88 15 12.2 15H14.4C15.28 15 16 14.28 16 13.4V12.2C16 9.88 14.12 8 11.8 8H11.6C9.6 8 8 9.6 8 11.6V12C8 12.88 7.28 13.6 6.4 13.6H4.8C3.92 13.6 3.2 12.88 3.2 12V11.6C3.2 7.04 6.88 3.36 11.44 3.2H11.8C16.64 3.2 20.8 7.36 20.8 12.2V13.4C20.8 16.92 18.32 19.84 15 20.6C16.44 21.2 17.6 22.48 17.6 24V33.6C17.6 34.48 16.88 35.2 16 35.2H14.4C13.52 35.2 12.8 34.48 12.8 33.6V24C12.8 23.12 13.52 22.4 14.4 22.4V24ZM36 24H31.2C30.32 24 29.6 23.28 29.6 22.4V19.2C29.6 16.88 31.48 15 33.8 15H36C36.88 15 37.6 14.28 37.6 13.4V12.2C37.6 9.88 35.72 8 33.4 8H33.2C31.2 8 29.6 9.6 29.6 11.6V12C29.6 12.88 28.88 13.6 28 13.6H26.4C25.52 13.6 24.8 12.88 24.8 12V11.6C24.8 7.04 28.48 3.36 33.04 3.2H33.4C38.24 3.2 42.4 7.36 42.4 12.2V13.4C42.4 16.92 39.92 19.84 36.6 20.6C38.04 21.2 39.2 22.48 39.2 24V33.6C39.2 34.48 38.48 35.2 37.6 35.2H36C35.12 35.2 34.4 34.48 34.4 33.6V24C34.4 23.12 35.12 22.4 36 22.4V24Z" fill="#0071E3"/>
+              </svg>
+            </div>
+            <p class="testimonial-text">MarketPro transformed our digital presence with their innovative approach. Within just three months, we saw a significant increase in leads and conversions.</p>
+            <div class="testimonial-author">
+              <h4 class="author-name">Sarah Johnson</h4>
+              <p class="author-position">Marketing Director, TechNova Solutions</p>
+            </div>
+          </div>
+         
+          <div class="testimonial-slide">
+            <div class="quote-icon">
+              <svg width="48" height="48" viewBox="0 0 48 48" fill="none" xmlns="http://www.w3.org/2000/svg">
+                <path d="M14.4 24H9.6C8.72 24 8 23.28 8 22.4V19.2C8 16.88 9.88 15 12.2 15H14.4C15.28 15 16 14.28 16 13.4V12.2C16 9.88 14.12 8 11.8 8H11.6C9.6 8 8 9.6 8 11.6V12C8 12.88 7.28 13.6 6.4 13.6H4.8C3.92 13.6 3.2 12.88 3.2 12V11.6C3.2 7.04 6.88 3.36 11.44 3.2H11.8C16.64 3.2 20.8 7.36 20.8 12.2V13.4C20.8 16.92 18.32 19.84 15 20.6C16.44 21.2 17.6 22.48 17.6 24V33.6C17.6 34.48 16.88 35.2 16 35.2H14.4C13.52 35.2 12.8 34.48 12.8 33.6V24C12.8 23.12 13.52 22.4 14.4 22.4V24ZM36 24H31.2C30.32 24 29.6 23.28 29.6 22.4V19.2C29.6 16.88 31.48 15 33.8 15H36C36.88 15 37.6 14.28 37.6 13.4V12.2C37.6 9.88 35.72 8 33.4 8H33.2C31.2 8 29.6 9.6 29.6 11.6V12C29.6 12.88 28.88 13.6 28 13.6H26.4C25.52 13.6 24.8 12.88 24.8 12V11.6C24.8 7.04 28.48 3.36 33.04 3.2H33.4C38.24 3.2 42.4 7.36 42.4 12.2V13.4C42.4 16.92 39.92 19.84 36.6 20.6C38.04 21.2 39.2 22.48 39.2 24V33.6C39.2 34.48 38.48 35.2 37.6 35.2H36C35.12 35.2 34.4 34.48 34.4 33.6V24C34.4 23.12 35.12 22.4 36 22.4V24Z" fill="#0071E3"/>
+              </svg>
+            </div>
+            <p class="testimonial-text">The team's attention to detail and data-driven strategies helped us achieve ROI beyond our expectations. They're true marketing partners for our business.</p>
+            <div class="testimonial-author">
+              <h4 class="author-name">Michael Chen</h4>
+              <p class="author-position">CEO, EcoGoods</p>
+            </div>
+          </div>
+         
+          <div class="testimonial-slide">
+            <div class="quote-icon">
+              <svg width="48" height="48" viewBox="0 0 48 48" fill="none" xmlns="http://www.w3.org/2000/svg">
+                <path d="M14.4 24H9.6C8.72 24 8 23.28 8 22.4V19.2C8 16.88 9.88 15 12.2 15H14.4C15.28 15 16 14.28 16 13.4V12.2C16 9.88 14.12 8 11.8 8H11.6C9.6 8 8 9.6 8 11.6V12C8 12.88 7.28 13.6 6.4 13.6H4.8C3.92 13.6 3.2 12.88 3.2 12V11.6C3.2 7.04 6.88 3.36 11.44 3.2H11.8C16.64 3.2 20.8 7.36 20.8 12.2V13.4C20.8 16.92 18.32 19.84 15 20.6C16.44 21.2 17.6 22.48 17.6 24V33.6C17.6 34.48 16.88 35.2 16 35.2H14.4C13.52 35.2 12.8 34.48 12.8 33.6V24C12.8 23.12 13.52 22.4 14.4 22.4V24ZM36 24H31.2C30.32 24 29.6 23.28 29.6 22.4V19.2C29.6 16.88 31.48 15 33.8 15H36C36.88 15 37.6 14.28 37.6 13.4V12.2C37.6 9.88 35.72 8 33.4 8H33.2C31.2 8 29.6 9.6 29.6 11.6V12C29.6 12.88 28.88 13.6 28 13.6H26.4C25.52 13.6 24.8 12.88 24.8 12V11.6C24.8 7.04 28.48 3.36 33.04 3.2H33.4C38.24 3.2 42.4 7.36 42.4 12.2V13.4C42.4 16.92 39.92 19.84 36.6 20.6C38.04 21.2 39.2 22.48 39.2 24V33.6C39.2 34.48 38.48 35.2 37.6 35.2H36C35.12 35.2 34.4 34.48 34.4 33.6V24C34.4 23.12 35.12 22.4 36 22.4V24Z" fill="#0071E3"/>
+              </svg>
+            </div>
+            <p class="testimonial-text">From concept to execution, their creative campaigns consistently deliver results. They've helped us establish our brand in a highly competitive industry.</p>
+            <div class="testimonial-author">
+              <h4 class="author-name">Alicia Rodriguez</h4>
+              <p class="author-position">Brand Manager, Urban Style Co.</p>
+            </div>
+          </div>
+         
+          <div class="testimonial-slide">
+            <div class="quote-icon">
+              <svg width="48" height="48" viewBox="0 0 48 48" fill="none" xmlns="http://www.w3.org/2000/svg">
+                <path d="M14.4 24H9.6C8.72 24 8 23.28 8 22.4V19.2C8 16.88 9.88 15 12.2 15H14.4C15.28 15 16 14.28 16 13.4V12.2C16 9.88 14.12 8 11.8 8H11.6C9.6 8 8 9.6 8 11.6V12C8 12.88 7.28 13.6 6.4 13.6H4.8C3.92 13.6 3.2 12.88 3.2 12V11.6C3.2 7.04 6.88 3.36 11.44 3.2H11.8C16.64 3.2 20.8 7.36 20.8 12.2V13.4C20.8 16.92 18.32 19.84 15 20.6C16.44 21.2 17.6 22.48 17.6 24V33.6C17.6 34.48 16.88 35.2 16 35.2H14.4C13.52 35.2 12.8 34.48 12.8 33.6V24C12.8 23.12 13.52 22.4 14.4 22.4V24ZM36 24H31.2C30.32 24 29.6 23.28 29.6 22.4V19.2C29.6 16.88 31.48 15 33.8 15H36C36.88 15 37.6 14.28 37.6 13.4V12.2C37.6 9.88 35.72 8 33.4 8H33.2C31.2 8 29.6 9.6 29.6 11.6V12C29.6 12.88 28.88 13.6 28 13.6H26.4C25.52 13.6 24.8 12.88 24.8 12V11.6C24.8 7.04 28.48 3.36 33.04 3.2H33.4C38.24 3.2 42.4 7.36 42.4 12.2V13.4C42.4 16.92 39.92 19.84 36.6 20.6C38.04 21.2 39.2 22.48 39.2 24V33.6C39.2 34.48 38.48 35.2 37.6 35.2H36C35.12 35.2 34.4 34.48 34.4 33.6V24C34.4 23.12 35.12 22.4 36 22.4V24Z" fill="#0071E3"/>
+              </svg>
+            </div>
+            <p class="testimonial-text">We've worked with several marketing agencies, but none have delivered the level of service and results that MarketPro does. They're an extension of our team.</p>
+            <div class="testimonial-author">
+              <h4 class="author-name">David Thompson</h4>
+              <p class="author-position">Operations Director, FinTech Innovations</p>
+            </div>
+          </div>
+        </div>
+       
+        <div class="testimonial-dots">
+          <button class="dot active" data-slide="0"></button>
+          <button class="dot" data-slide="1"></button>
+          <button class="dot" data-slide="2"></button>
+          <button class="dot" data-slide="3"></button>
+        </div>
+       
+        <div class="testimonial-controls">
+          <button id="prevTestimonial" class="testimonial-control prev">
+            <svg xmlns="http://www.w3.org/2000/svg" width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="m15 18-6-6 6-6"/></svg>
+            <span class="sr-only">Previous</span>
+          </button>
+         
+          <button id="nextTestimonial" class="testimonial-control next">
+            <svg xmlns="http://www.w3.org/2000/svg" width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="m9 18 6-6-6-6"/></svg>
+            <span class="sr-only">Next</span>
+          </button>
+        </div>
+      </div>
+    </div>
+  </section>
+ 
+  <!-- Contact Section -->
+  <section id="contact" class="contact section">
+    <div class="container">
+      <div class="section-header">
+        <h2 class="section-title">Get in Touch</h2>
+        <p class="section-description">
+          Ready to transform your digital marketing? Contact us today to discuss how we can help your business achieve its goals.
+        </p>
+      </div>
+     
+      <div class="contact-grid">
+        <div class="contact-form-container">
+          <h3 class="form-title">Send us a message</h3>
+         
+          <form id="contactForm" class="contact-form">
+            <div class="form-grid">
+              <div class="form-group">
+                <label for="name">Name</label>
+                <input type="text" id="name" placeholder="Your name" required>
+              </div>
+             
+              <div class="form-group">
+                <label for="email">Email</label>
+                <input type="email" id="email" placeholder="your@email.com" required>
+              </div>
+            </div>
+           
+            <div class="form-group">
+              <label for="subject">Subject</label>
+              <input type="text" id="subject" placeholder="How can we help you?" required>
+            </div>
+           
+            <div class="form-group">
+              <label for="message">Message</label>
+              <textarea id="message" placeholder="Tell us about your project..." rows="5" required></textarea>
+            </div>
+           
+            <button type="submit" class="btn-primary btn-full">Send Message</button>
+          </form>
+        </div>
+       
+        <div class="contact-info">
+          <div class="info-card">
+            <h3 class="info-title">Contact Information</h3>
+           
+            <div class="info-group">
+              <p class="info-label">Email us at</p>
+              <p class="info-value">viralzugaad@gmail.com</p>
+            </div>
+           
+            <div class="info-group">
+              <p class="info-label">Call us at</p>
+              <p class="info-value">6207708891</p>
+            </div>
+           
+            <div class="info-group">
+              <p class="info-label">Visit our office</p>
+              <p class="info-value">Banert</p>
+              <p class="info-value">Pune</p>
+            </div>
+          </div>
+         
+          <div class="social-card">
+            <h3 class="info-title">Follow Us</h3>
+           
+            <div class="social-icons">
+              <a href="#" class="social-icon">
+                <svg xmlns="http://www.w3.org/2000/svg" width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M18 2h-3a5 5 0 0 0-5 5v3H7v4h3v8h4v-8h3l1-4h-4V7a1 1 0 0 1 1-1h3z"></path></svg>
+              </a>
+              <a href="#" class="social-icon">
+                <svg xmlns="http://www.w3.org/2000/svg" width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><rect x="2" y="2" width="20" height="20" rx="5" ry="5"></rect><path d="M16 11.37A4 4 0 1 1 12.63 8 4 4 0 0 1 16 11.37z"></path><line x1="17.5" y1="6.5" x2="17.51" y2="6.5"></line></svg>
+              </a>
+              <a href="#" class="social-icon">
+                <svg xmlns="http://www.w3.org/2000/svg" width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M22 4s-.7 2.1-2 3.4c1.6 10-9.4 17.3-18 11.6 2.2.1 4.4-.6 6-2C3 15.5.5 9.6 3 5c2.2 2.6 5.6 4.1 9 4-.9-4.2 4-6.6 7-3.8 1.1 0 3-1.2 3-1.2z"></path></svg>
+              </a>
+              <a href="#" class="social-icon">
+                <svg xmlns="http://www.w3.org/2000/svg" width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M16 8a6 6 0 0 1 6 6v7h-4v-7a2 2 0 0 0-2-2 2 2 0 0 0-2 2v7h-4v-7a6 6 0 0 1 6-6z"></path><rect x="2" y="9" width="4" height="12"></rect><circle cx="4" cy="4" r="2"></circle></svg>
+              </a>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+ 
+  <!-- Footer -->
+  <footer class="footer">
+    <div class="container">
+      <div class="footer-grid">
+        <div class="footer-about">
+          <h3 class="footer-title">MarketPro</h3>
+          <p class="footer-text">
+            Your partner for innovative digital marketing solutions that drive growth and deliver measurable results.
+          </p>
+          <p class="copyright">© 2025 MarketPro. All rights reserved.</p>
+        </div>
+       
+        <div class="footer-links">
+          <h3 class="footer-title">Services</h3>
+          <ul>
+            <li><a href="#">Social Media Marketing</a></li>
+            <li><a href="#">Search Engine Optimization</a></li>
+            <li><a href="#">Web Design & Development</a></li>
+            <li><a href="#">Mobile Marketing</a></li>
+            <li><a href="#">Content Marketing</a></li>
+            <li><a href="#">Analytics & Reporting</a></li>
+          </ul>
+        </div>
+       
+        <div class="footer-links">
+          <h3 class="footer-title">Company</h3>
+          <ul>
+            <li><a href="#about">About Us</a></li>
+            <li><a href="#">Our Team</a></li>
+            <li><a href="#portfolio">Case Studies</a></li>
+            <li><a href="#testimonials">Testimonials</a></li>
+            <li><a href="#">Careers</a></li>
+            <li><a href="#contact">Contact</a></li>
+          </ul>
+        </div>
+       
+        <div class="footer-links">
+          <h3 class="footer-title">Resources</h3>
+          <ul>
+            <li><a href="#">Blog</a></li>
+            <li><a href="#">E-books</a></li>
+            <li><a href="#">Webinars</a></li>
+            <li><a href="#">Marketing Guides</a></li>
+            <li><a href="#">Privacy Policy</a></li>
+            <li><a href="#">Terms of Service</a></li>
+          </ul>
+        </div>
+      </div>
+    </div>
+  </footer>
+ 
+  <!-- Toast Container -->
+  <div id="toastContainer" class="toast-container"></div>
+ 
+  <script src="https://cdn.jsdelivr.net/npm/vanilla-tilt@1.7.2/dist/vanilla-tilt.min.js"></script>
+  <script src="script.js"></script>
+</body>
+</html>
